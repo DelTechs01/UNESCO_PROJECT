@@ -1,0 +1,161 @@
+/* Base styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #0f64e4;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav .search {
+    display: flex;
+    align-items: center;
+}
+
+.nav .search input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 300px;
+}
+
+.nav .search button {
+    padding: 10px;
+    border: none;
+    background-color: #0f64e4;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.nav .search button:hover {
+    background-color: #011535;
+}
+
+.nav .search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-members .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-members table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.new-members table,
+.new-members th,
+.new-members td {
+    border: 1px solid #ddd;
+}
+
+.new-members th,
+.new-members td {
+    padding: 15px;
+    text-align: left;
+}
+
+.new-members th {
+    background-color: #0064fa;
+    color: white;
+}
+
+.new-members tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.new-members tr:hover {
+    background-color: #ddd;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0064fa;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .nav .search input[type="text"] {
+        width: 100%; /* Full width input on smaller screens */
+    }
+
+    .nav .search button {
+        padding: 10px 15px; /* Adjust button padding */
+    }
+
+    .new-members table {
+        font-size: 14px; /* Smaller font size for tables on smaller screens */
+    }
+
+    .profile-img {
+        width: 40px;
+        height: 40px;
+    }
+}

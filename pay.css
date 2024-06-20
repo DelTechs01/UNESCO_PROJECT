@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #0f64e4;
+}
+
+.title .btn {
+    padding: 10px 20px;
+    background-color: #0f64e4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.title .btn:hover {
+    background-color: #011535;
+}
+
+.content-2,
+.total-contributions,
+.total-amount {
+    margin-top: 20px;
+}
+
+.recent-payments table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-payments table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+.recent-payments th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+.recent-payments th {
+    background-color: #0064fa;
+    color: white;
+}
+
+.recent-payments tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.recent-payments tr:hover {
+    background-color: #ddd;
+}
+
+
+
+.total-contributions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.total-contributions li {
+    background: #f2f2f2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.total-amount h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #0f64e4;
+}
+
+/* Global Styles */
+
+.containers {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Specific Styles for Login Page */
+.login-container {
+    max-width: 300px;
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container p {
+    margin-top: 10px;
+}
+
+/* Specific Styles for Register Page */
+.register-container {
+    max-width: 400px;
+}
+
+.register-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.register-container p {
+    margin-top: 10px;
+}
+
+/* Specific Styles for Change Password Page */
+.change-password-container {
+    max-width: 400px;
+}
+
+.change-password-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.change-password-container p {
+    margin-top: 10px;
+}
